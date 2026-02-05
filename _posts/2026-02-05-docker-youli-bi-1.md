@@ -53,7 +53,7 @@ docker image pull docker.1ms.run/ubuntu:24.04
 2. Dockerfile 中的每条指令都会生成一个新层。
 3. 如果某一层的内容未被使用，它不会占用空间，也不会被覆盖。
 
-```
+```mermaid
 packet
 0-31: "layer-1"
 32-63: "layer-2"
@@ -65,10 +65,12 @@ packet
 
 容器是由镜像创建出来的运行实例。每个容器都是一个独立的、可执行的软件环境。你可以把它理解成“烹饪出来的成品”，而镜像就是“食材和食谱”。
 
-```
+```mermaid
 graph TD;
-    image1[image e1@] -- create --> container1[container1]
-    image2[image e2@] -- create --> container2[container2]
+    image1 e1@ -- create --> container1[container1]
+    image1 e2@ -- create --> container2[container2]
+    e1@{ animate: true}
+    e2@{ animate: true}
 ```
 
 每个容器都与宿主机隔离，拥有自己的文件系统、进程空间和网络环境。
