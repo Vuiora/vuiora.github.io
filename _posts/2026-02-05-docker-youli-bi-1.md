@@ -1,10 +1,10 @@
 ---
-title: "Docker 游历笔记 1"
+title: "Docker 游记 1"
 date: 2026-02-05
 tags: [docker]
 ---
 
-### Docker 游历笔记 1
+### Docker 游记 1
 
 > The best way to express yourself is to talk to a child using your own tone.
 
