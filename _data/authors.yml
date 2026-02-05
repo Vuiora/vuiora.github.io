@@ -1,5 +1,17 @@
 # Authors
 
+Vuiora:
+  name: "Vuiora"
+  uri: "https://vuiora.github.io"
+  email: "Nodolpasl@gmail.com"
+  bio: "Short biography for the left-hand sidebar"
+  avatar: "profile.png"
+  location: "Taian"
+  employer: "JiNing University"
+  github: "vuiora"
+  googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  orcid: "https://orcid.org/yourorcidurl"
+
 Name Name:
   name        : "Name Name"
   uri         : "https://name.com"
