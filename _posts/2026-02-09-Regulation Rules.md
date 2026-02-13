@@ -1,6 +1,6 @@
 ---
 title: "正则化策略学习笔记"
-date: 2026-02-06
+date: 2026-02-09
 tags: [research]
 ---
 
